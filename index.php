@@ -39,13 +39,13 @@ $books = [
     <div class="row g-3">
 
       <?php foreach ($books as $book): ?>
-        <div class="col-3">
-          <div class="card">
-            <div class="card-body">
-              <?= $book->getDetails() ?>
-            </div>
+      <div class="col-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <?= $book->getDetails() ?>
           </div>
         </div>
+      </div>
       <?php endforeach; ?>
     </div>
   </div>
