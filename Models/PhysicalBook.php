@@ -18,10 +18,10 @@ class PhysicalBook extends Book
 
   public function getDetails()
   {
-    $um = self::$weight_unit_measure;
+    $unit_measure = self::$weight_unit_measure;
     return "
     <strong>Titolo:</strong> {$this->getTitle()}, <br>
-    <strong>Peso:</strong> $this->weight $um, <br>
+    <strong>Peso:</strong> $this->weight $unit_measure, <br>
     <strong>Autore</strong> $this->author, <br>
     <strong>Numero pagine:</strong> $this->pages";
   }

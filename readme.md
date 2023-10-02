@@ -23,7 +23,7 @@ Aggiungiamo anche degli attributi unici per le nuove classi. Per esempio (ma non
 per la classe Movie:
 
 - $published_year anno di pubblicazione
-- $running_timedurata in minuti
+- $running_time durata in minuti
 
 per la classe TvSerie:
 
@@ -35,4 +35,3 @@ per la classe TvSerie:
 ## Bonus
 
 Creare un array misto di oggetti Movie e TvSerie. Stamparli a schermo in delle cards.
-NB: nel foreach della stampa bisognerà distinguere tra Movie e TvSerie per poter stampare correttamente tutte le informazioni. Il metodo get_class() di PHP potrebbe essere d'aiuto :occhiolino:
