@@ -20,7 +20,6 @@ $books = [
   new PhysicalBook('Libro fisico', 10, 'Autore', 250),
 ];
 
-$books[0]->setTitle("123");
 ?>
 
 <!DOCTYPE html>
