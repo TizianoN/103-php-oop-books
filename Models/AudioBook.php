@@ -23,6 +23,7 @@ class AudioBook extends Book
     $unit_measure = self::$weight_unit_measure;
     return "
     <strong>Titolo:</strong> {$this->getTitle()}, <br>
+    <strong>Tipo:</strong> Audiolibro, <br>
     <strong>Peso:</strong> $this->weight $unit_measure, <br>
     <strong>Autore</strong> $this->author, <br>
     <strong>Durata:</strong> $this->duration, <br>
